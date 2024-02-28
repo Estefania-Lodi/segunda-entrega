@@ -1,0 +1,77 @@
+.itemListContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.productosContainer {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.producto {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: calc(33.33% - 20px); 
+  box-sizing: border-box;
+}
+
+.productoImagen {
+  max-width: 100%;
+  height: auto;
+  max-height: 150px;
+  margin-bottom: 10px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  box-shadow: 0 0 10px #4caf50;
+}
+
+
+.carritoContainer {
+  width: 30%;
+  max-height: 350px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.carritoProducto {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.ordenarBotonContainer {
+  margin-bottom: 10px;
+}
+
+.ordenarBotonContainer button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.ordenarBotonContainer button:hover {
+  background-color: #45a049;
+}
